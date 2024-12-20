@@ -1,7 +1,7 @@
 /*****************************************************************************
  *   Ledger Monero App.
  *   (c) 2017-2020 Cedric Mesnil <cslashm@gmail.com>, Ledger SAS.
- *   (c) 2020 Ledger SAS.
+ *   (c) 2020-2024 Ledger SAS.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -73,4 +73,4 @@ void app_main(void) {
     }
 }
 
-#endif
+#endif /* #ifndef MONERO_DEBUG_MAIN */
